@@ -1,0 +1,8 @@
+Login through GitHub in your VS Code.
+Commands
+1. git init
+2. git README.md
+3. git commit -m "Message"
+4. git add remote origin <repo url>
+5. git branch -M main
+7. git push -v origin main

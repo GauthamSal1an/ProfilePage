@@ -41,11 +41,15 @@ header h1 {
 section {
     width: 400px;
     height: 500px;
-    padding-left: 10px;
     border: 8px solid #896a5b;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     border-radius: 15px;
     margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.1);
 }
 
 section h2 {
@@ -68,12 +72,12 @@ table {
 
 th, td {
     padding: 5px;
-    border-bottom: 1px solid #b74a02;
+    border-bottom: 3px solid #896a5b;
     text-align: left;
 }
 
 th {
-    background-color: #b95504;
+    background-color: #896a5b;
     color: #2c3e50;
 }
 
@@ -102,7 +106,7 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 0.9rem;
-    color: #777;
+    color: #ffffff;
     border-top: 1px solid #ddd;
     margin-top: 40px;
 }
