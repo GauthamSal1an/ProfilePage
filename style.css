@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+.card {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 body {
     font-family: 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
@@ -27,7 +34,7 @@ header h1 {
     letter-spacing: 1px;
     font-size: 72px;
     font-family: 'Gothic', sans-serif;
-    text-align:left;
+    text-align:center;
 }
 
 /* Section styling */
@@ -35,9 +42,10 @@ section {
     width: 400px;
     height: 500px;
     padding-left: 10px;
-    border-radius: 8px;
+    border: 8px solid #896a5b;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     border-radius: 15px;
+    margin: 10px;
 }
 
 section h2 {
@@ -55,17 +63,17 @@ section h2 {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
+    overflow-x: auto;
 }
 
 th, td {
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    border-bottom: 1px solid #b74a02;
     text-align: left;
 }
 
 th {
-    background-color: #ecf0f1;
+    background-color: #b95504;
     color: #2c3e50;
 }
 
