@@ -1,4 +1,3 @@
-/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -12,23 +11,30 @@
     justify-content: space-evenly;
 }
 
+.image{
+    display:  flex;
+    justify-content: space-around;
+    align-items:  center;
+    flex-direction: row;
+}
+
 body {
     font-family: 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
-    background-color: #567257;
+    background-color: #000000;
     color: #aca89e;
     padding: 5px;
 }
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #000000;
     color: rgb(0, 0, 0);
     text-align: center;    
 }
 
-header h1 {
-    background-color: #567257;
+.head1 {
+    background-color: #000000;
     color: #aca89e;
     font-size: 2.5rem;
     letter-spacing: 1px;
